@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuperChat | Go (Golang) ChatGPT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav class="bg-blue-500 px-4 py-3">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="text-white font-bold text-2xl">
+                SuperChat | Go (Golang) ChatGPT
+            </div>
+        </div>
+    </nav>
+
+    <div id="chat" class="max-w-7xl mx-auto mt-6 px-4"></div>
+
+    <div class="max-w-7xl mx-auto mt-6 px-4">
+        <div class="bg-white shadow-md rounded-lg p-4">
+            <div class="flex">
+                <textarea id="content" class="form-input flex-1" placeholder="Escreva sua mensagem"></textarea>
+                <button id="send"
+                    class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md ml-4">
+                    Enviar
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="/public/app.js"></script>
+</body>
+
+</html>
